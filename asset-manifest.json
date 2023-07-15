@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SebMal64/run-app/static/css/main.d3c16f1a.css",
+    "main.js": "/SebMal64/run-app/static/js/main.c6f7b96c.js",
+    "static/media/principal.jpg": "/SebMal64/run-app/static/media/principal.023db70c411840b33a60.jpg",
+    "index.html": "/SebMal64/run-app/index.html",
+    "main.d3c16f1a.css.map": "/SebMal64/run-app/static/css/main.d3c16f1a.css.map",
+    "main.c6f7b96c.js.map": "/SebMal64/run-app/static/js/main.c6f7b96c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d3c16f1a.css",
+    "static/js/main.c6f7b96c.js"
+  ]
+}
