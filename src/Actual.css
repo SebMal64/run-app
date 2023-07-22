@@ -7,22 +7,21 @@
 
 }
 .cont {
-    max-width: 400px;
-    height: 100%;
+    max-width: auto;
+    height: 100vh;
     margin: 0 auto;
 
 }
 .actual {
-    min-width: 100%;
-    background: url("./images/principal.jpg");
+    background: url("./assets/img/principal.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
     margin: 0 auto;
     display: grid;
     grid-template-rows: repeat(2,200px);
+    height: 100%;
     align-items: center;
-    padding-top:50% ;    
+    padding-top:10% ;    
 
 }
 .h1-actual {
