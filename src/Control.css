@@ -1,0 +1,105 @@
+
+:root {
+   --shadow: 3px 3px 15px 5px rgba(114, 114, 114, 0.493);
+    
+}
+.tit {
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 40px;
+    font-size: 2rem;
+}
+.grid-m {
+    height: 65vh;
+    width: auto;
+    display: grid;
+    gap: 10%;
+    grid-template-columns: 50% 40%;
+    grid-template-rows: 100%;
+    padding: 0px 120px;
+
+    
+}
+.grid-estad {
+
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2,50%);
+    gap: 30px;
+    grid-column: 1;
+        grid-row: 1;
+
+}
+.grid-info {
+        grid-column: 2;
+        grid-row: 1;
+
+}
+
+.grid-bt {
+    display: grid;
+    margin-top: 30px;
+    gap: 20px;
+    grid-template-columns: 100%, 100%;
+
+}
+.a {
+    background: linear-gradient(rgb(23, 131, 23), rgb(32, 171, 60));
+
+}
+.b {
+    background: linear-gradient(rgb(23, 46, 131), rgb(69, 71, 208));
+}
+.block, .estado {
+    background: linear-gradient(rgb(231, 231, 231), rgb(218, 218, 218));
+    box-shadow: var(--shadow);
+    padding: 30px;
+    border-radius: 20px;
+        justify-items: center;
+    align-items: center;
+    text-align: center;
+}
+.estado {
+    padding: 30px 40px;
+
+}
+.titulo {
+    margin-top: 10%;
+    color: rgb(51, 51, 51);
+    text-transform: capitalize;
+
+}
+.titulo-es {
+    color: rgb(51, 51, 51);
+    text-transform: capitalize;
+    
+}
+.tit-h5 {
+    color: rgb(51, 51, 51);
+    text-align: justify;
+
+    
+}
+.barra{
+    height: 10px;
+    background-color: blueviolet;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
+#barra1 {
+    background-color: rgb(48, 112, 191);
+    width: 80%;
+
+}
+#barra2 {
+    background-color: rgb(13, 108, 18);
+
+    width: 20%;
+}
+.dat {
+
+    font-size: 3rem;    color: rgb(47, 47, 47);
+    text-transform: lowercase;
+
+}
+

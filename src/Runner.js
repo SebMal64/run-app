@@ -4,7 +4,7 @@ import img2 from './assets/img/image2.png';
 
 function Runner() {
     return (
-        <div className='cont-2'>
+        <div className='pont-2'>
             <div className='p-1'>
                 <h1 class="h1-edit">run app</h1>
                 <div className='grid-main'>

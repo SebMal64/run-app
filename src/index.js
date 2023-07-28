@@ -5,7 +5,9 @@ import App from './App';
 import Actual from './Actual';
 import './Actual.css';
 import Runner from './Runner';
-import './Runner.css'
+import './Runner.css';
+import Control from './Control';
+import './Control.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +15,7 @@ root.render(
     <App />
     <Actual/>
     <Runner/>
+    <Control/>
   </React.StrictMode>
 );
 
