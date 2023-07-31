@@ -1,21 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import { BrowserRouter } from "react-router-dom";
 import App from './App';
-import Actual from './Actual';
-import './Actual.css';
-import Runner from './Runner';
-import './Runner.css';
-import Control from './Control';
-import './Control.css'
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-    <Actual/>
-    <Runner/>
-    <Control/>
-  </React.StrictMode>
+  /*<React.StrictMode>*/
+    <BrowserRouter>
+    <App/>
+
+  </BrowserRouter>
 );
 
