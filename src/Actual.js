@@ -3,7 +3,6 @@ import './Actual.css';
 import { Link } from "react-router-dom"
 
 
-
 function Actual() {
 
     return (
@@ -12,8 +11,8 @@ function Actual() {
             <h1 className="h1-actual">Run App</h1>
             <div className="cont-btn">
             
-            <Link to="Runner" ><button className="btn-main">Empezar</button></Link>
-            <Link to="Registro" >
+            <Link to="/Runner" ><button className="btn-main">Empezar</button></Link>
+            <Link to="/Registro" >
                 <button className="btn-main">Registrarme</button>
                 </Link>
 

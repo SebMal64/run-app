@@ -11,8 +11,8 @@ function App() {
       <Routes>
         <Route path="/" Component={Actual}/>
         <Route path="Runner"  Component={Runner} />
-        <Route path="Control" Component={Control} />
         <Route path="Anuncio" Component={Anuncio} />
+        <Route path="Control" Component={Control} />
       </Routes>
     </div>
   );

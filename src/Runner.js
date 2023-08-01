@@ -3,6 +3,7 @@ import img1 from './assets/img/image1.png';
 import img2 from './assets/img/image2.png';
 import { Link } from 'react-router-dom';
 import styled from "styled-components";
+import Anuncio from './Anuncio';
 
 
 function Runner() {
@@ -26,10 +27,11 @@ function Runner() {
                 <div className='btn-grid'>
                     <button className="btn-run b1">Continuar</button>
                     <Boton className="b2">
-                        <Link to="Anuncio"  >Terminar</Link>
+                        <Link to="/Anuncio"  >Terminar</Link>
                     </Boton>
                 </div>
-            </div></div>
+            </div>
+            <Anuncio/></div>
     )
 };
 const Caja = styled.div`
