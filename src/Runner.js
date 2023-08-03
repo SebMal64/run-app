@@ -4,9 +4,11 @@ import img2 from './assets/img/image2.png';
 import { Link } from 'react-router-dom';
 import styled from "styled-components";
 import Anuncio from './Anuncio';
+import React, {useState} from 'react'; 
 
 
 function Runner() {
+    const [estadoModal1, cambiarEstadoModal1] =useState(true)
     return (
         <div className='pont-2'>
             <div className='p-1'>
@@ -26,12 +28,20 @@ function Runner() {
                 </div>
                 <div className='btn-grid'>
                     <button className="btn-run b1">Continuar</button>
-                    <Boton className="b2">
+                    <Boton onClick={()=>cambiarEstadoModal1(!estadoModal1)} className="b2">
                         <Link to="/Anuncio"  >Terminar</Link>
                     </Boton>
                 </div>
             </div>
-            <Anuncio/></div>
+            <Anuncio
+            estado={estadoModal1}
+            cambiarEstado={cambiarEstadoModal1}>
+
+            </Anuncio>
+            
+            
+            
+            </div>
     )
 };
 const Caja = styled.div`
