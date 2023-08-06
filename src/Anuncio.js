@@ -1,8 +1,8 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from "styled-components";
 
-const Anuncio = ({ children, estado, cambiarEstado }) => {
+const Anuncio = ({ estado, cambiarEstado }) => {
     return (
         <>
             {estado &&
@@ -17,10 +17,10 @@ const Anuncio = ({ children, estado, cambiarEstado }) => {
 
                             </Link>
                         </BotonCerrar>
-                        <Boton> 
-                            <Link to="/Control" >Guardar, y ver datos
-                            </Link>
-                        </Boton>
+                      <Link to="/Control" >  <Boton>
+                            Guardar, y ver datos
+                            
+                        </Boton></Link> 
                     </Contenedor>
                 </Overlay>
             }

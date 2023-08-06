@@ -1,6 +1,6 @@
 
 import './Actual.css';
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 
 
 function Actual() {
@@ -12,9 +12,7 @@ function Actual() {
             <div className="cont-btn">
             
             <Link to="/Runner" ><button className="btn-main">Empezar</button></Link>
-            <Link to="/Registro" >
-                <button className="btn-main">Registrarme</button>
-                </Link>
+            <Link to="/Formulario" ><button className="btn-main">Registrarme</button></Link>
 
 
             </div>
